@@ -12,3 +12,4 @@ max_len 50 allows me to continue on from sequence forming, but still crashes whe
 lowering batch_size to 16 in the create model function and the epoch to 50 in hopes that this will significantly lower cpu usage.
 still crashing even with massivly lowered restrictions, unsure what to change.
 
+#tried using the fastest avaialble machine on ucloud and both running through normal scripts and a jupiter notebook, having same error on both.
