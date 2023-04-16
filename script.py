@@ -40,7 +40,7 @@ def generate_padded_sequences(input_sequences):
     max_sequence_len = max([len(x) for x in input_sequences])
     # make every sequence the length of the longest on
     input_sequences = np.array(pad_sequences(input_sequences, 
-                                            maxlen=max_sequence_len, 
+                                            maxlen=50, 
                                             padding='pre'))
 
     predictors, label = input_sequences[:,:-1],input_sequences[:,-1]
@@ -122,8 +122,8 @@ model.summary()
 
 history = model.fit(predictors, 
                     label, 
-                    epochs=100,
-                    batch_size=128, 
+                    epochs=50,
+                    batch_size=16, 
                     verbose=1)
 
 model.save("cds-lang/assignment-3---rnns-for-text-generation-Olihaha/out")
