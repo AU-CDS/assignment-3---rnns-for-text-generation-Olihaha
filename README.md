@@ -56,6 +56,6 @@ har to think the results are great when running the code a few times, but below 
 Generated Text: (input:this is)
 This Is Shades Of Trump Through His Wife Dont Dont Blame The
 
-Generated Text: (input:this is)
+Generated Text: (input:women)
 Women Are Complaining In The Bottomless Pit Of The Democratic Budget That
 
