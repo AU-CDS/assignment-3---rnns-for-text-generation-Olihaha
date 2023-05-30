@@ -1,3 +1,10 @@
+# dataset
+data/
+data/*
+cds-lang/assignment-3---rnns-for-text-generation-Olihaha/data/*
+assignment-3---rnns-for-text-generation-Olihaha/data/*
+data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
