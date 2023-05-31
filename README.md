@@ -51,7 +51,7 @@ generate_text.sh activates the virtuval environment, and runs the script generat
 
 ## results
 very computationally intensive therefore only used 1000 of the comments which still took a ton of time. 
-har to think the results are great when running the code a few times, but below i've input some reulsts.
+hard to think the results are great when running the code a few times, nevertheless i've still included some results below.
 
 Generated Text: (input:this is)
 This Is Shades Of Trump Through His Wife Dont Dont Blame The

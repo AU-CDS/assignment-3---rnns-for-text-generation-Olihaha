@@ -93,7 +93,7 @@ def generate_text(seed_text, next_words, model, max_sequence_len):
 
 
 
-data_dir = os.path.join("../data/")
+data_dir = os.path.join("data/")
 
 all_comments = []
 for filename in os.listdir(data_dir):
@@ -132,9 +132,9 @@ history = model.fit(predictors,
                     verbose=1)
 
 #save the model
-model.save("../models/model.h5")
+model.save("models/model.h5")
 
 # Save the tokenizer
-with open("../models/tokenizer.pkl", "wb") as f:
+with open("models/tokenizer.pkl", "wb") as f:
     pickle.dump(tokenizer, f)
 

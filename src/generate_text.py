@@ -4,11 +4,11 @@ import numpy as np
 import pickle
 
 # Load the saved tokenizer
-with open("../models/tokenizer.pkl", "rb") as f:
+with open("models/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
 # Load the saved model
-model = tf.keras.models.load_model("../models/model.h5")
+model = tf.keras.models.load_model("models/model.h5")
 
 # Define the maximum sequence length
 max_sequence_len = model.input_shape[1]
