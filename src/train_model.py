@@ -106,7 +106,8 @@ all_comments = [h for h in all_comments if h != "Unknown"]
 len(all_comments)
 print(len(all_comments))
 
-#only only 1000 because otherwise the process gets killed, remove the all_comments[:1000] if not desired #chose 1000 random comments because it might give more fun spread :)
+#only 1000 because otherwise the process gets killed, remove the all_comments[:1000] if not desired 
+#chose 1000 random comments because it might give more fun spread :)
 random.shuffle(all_comments)
 all_comments = all_comments[:1000]
 print(len(all_comments))
